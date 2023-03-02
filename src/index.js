@@ -1,5 +1,3 @@
-import { StrictMode } from "react";
-import { createRoot } from 'react-dom/client';
 import { createStore } from "redux";
 
 const reducer = (state = 0, action) => {
@@ -15,10 +13,12 @@ const reducer = (state = 0, action) => {
 
 const store = createStore(reducer);
 
+// subscribe is a method provided by the store. If there are no changes/updates to state, subscribe does nothing otherwise it will log the new state
 store.subscribe(() => {
   console.log("current state", store.getState());
 });
 
+// Change the store by dispatching actions
 store.dispatch({
   type: "INCREMENT",
   payload: 1
@@ -33,12 +33,3 @@ store.dispatch({
   type: "DECREMENT",
   payload: 2
 });
-
-const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
-
-root.render(
-  <StrictMode>
-    <h3>Open console to see the output.</h3>
-  </StrictMode>,
-);
