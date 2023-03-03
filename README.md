@@ -1,6 +1,11 @@
 ## Intro
 Use this repository as a resource to help you better understand Redux state - State is important to track the actions that a user makes to your application. 
 
+#### Note: 
+You'll need to have node and npm installed in order to run this application. Check out the post on Slack for more information on how to do that: [Instructions in Slack](https://stem-enrg.slack.com/archives/C04JHF6EBPV/p1677198419326669)
+
+- Check to see if you have npm installed by running this command `npm` - If you get a response that mentiones Usage and various npm commands such as npm install then you have it installed.
+
 ## Blog post related to this github repository
 I've made a few changes but otherwise this is the same from the article: 
 https://www.freecodecamp.org/news/redux-for-beginners/
@@ -13,7 +18,7 @@ https://www.codingame.com/playgrounds/8894/redux-tutorial-for-beginners
 To use this repository: 
 1. Clone this repository using either the HTTPS or SSH link (Depending on how you set up git)
 Below is the HTTPS link, if you're using SSH it will look different
-`git clone https://github.com/STEM-ENRG/DOM_events.git`
+`git clone https://github.com/STEM-ENRG/redux_state.git`
 
 2. The files are know adding to the current directory. Now, change directories so that you are in the newly cloned git repository
 `cd redux_state`
@@ -27,7 +32,7 @@ Move on to the next steps to see how you'll run this program - It's different th
 
 ## How to run this program
 
-In the project directory, you can run:
+In the project directory, run:
 
 ### `npm start`
 
