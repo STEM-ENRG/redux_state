@@ -1,8 +1,23 @@
-# Getting Started with Create React App
+## Intro
+Use this repository as a resource to help you better understand the DOM, what happens when interacting with various elements. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Clone the repository
+To use this repository: 
+1. Clone this repository using either the HTTPS or SSH link (Depending on how you set up git)
+Below is the HTTPS link, if you're using SSH it will look different
+`git clone https://github.com/STEM-ENRG/DOM_events.git`
 
-## Available Scripts
+2. The files are know adding to the current directory. Now, change directories so that you are in the newly cloned git repository
+`cd redux_state`
+
+3. Open the folder/directory in VSCode
+
+4. In the VSCode terminal: Since we have a package.json file that includes dependencies needed in order to run this project run this command to install those:
+`npm install`
+
+Move on to the next steps to see how you'll run this program - It's different that we've seen from our typical HTML and CSS programs
+
+## How to run this program
 
 In the project directory, you can run:
 
@@ -14,3 +29,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+-------
+From here you can practice with different things you've learned. I encourage you to add in `console.log()` statements in the index.js file to get a better understanding of what the code is doing and gain a better understanding of state
