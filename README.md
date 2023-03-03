@@ -1,5 +1,13 @@
 ## Intro
-Use this repository as a resource to help you better understand the DOM, what happens when interacting with various elements. 
+Use this repository as a resource to help you better understand Redux state - State is important to track the actions that a user makes to your application. 
+
+## Blog post related to this github repository
+I've made a few changes but otherwise this is the same from the article: 
+https://www.freecodecamp.org/news/redux-for-beginners/
+
+## Resources outside of this one
+Check out these resources to read up on State and how to incorporate it into a project
+https://www.codingame.com/playgrounds/8894/redux-tutorial-for-beginners
 
 ## Clone the repository
 To use this repository: 
